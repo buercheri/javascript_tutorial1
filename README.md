@@ -14,6 +14,7 @@ npm install webpack webpack-cli webpack-dev-server --save-dev
 
 Babel dependencies:
 npm install @babel/cli @babel/core @babel/node @babel/preset-env @babel/register --save-dev
+npm install babel-loader --save-dev
 => gets necessary dependencies
 
 Seeing up Babel
