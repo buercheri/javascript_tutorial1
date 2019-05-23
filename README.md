@@ -1,7 +1,8 @@
 # javascript_tutorial1
 
-Webpack 4 und Babel
+Webpack 4 und Babel7
 https://medium.com/@jeffrey.allen.lewis/the-ultimate-2018-webpack-4-and-babel-setup-guide-npm-yarn-dependencies-compared-entry-points-866b577da6a
+https://www.valentinog.com/blog/webpack/
 
 Create Nodejs projet:
 npm init -y
@@ -24,9 +25,9 @@ Add Babel presets
   ]
 }
 
-https://www.valentinog.com/blog/webpack/
 Setting up Webpack
 Create webpack.config.js at the root
+
 Add in package.json
 "scripts": {
   "dev": "webpack --mode development",
