@@ -1,0 +1,32 @@
+{
+  "name": "javascript_tutorial1",
+  "version": "1.0.0",
+  "description": "Javascript Tutorial using Webpack 4 und Babel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buercheri/javascript_tutorial1.git"
+  },
+  "keywords": [],
+  "author": "Ivan Bürcher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buercheri/javascript_tutorial1/issues"
+  },
+  "homepage": "https://github.com/buercheri/javascript_tutorial1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "webpack": "^4.32.1",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}
