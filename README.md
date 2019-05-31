@@ -35,6 +35,32 @@ Add in package.json
   "build": "webpack --mode production"
 }
 
+For Html Webpack plugin:
+npm i html-webpack-plugin html-loader --save-dev
+
+In webpack.config.js set:
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: "html-loader",
+            options: { minimize: true }
+          }
+        ]
+      }
+  plugins: [
+    new HtmlWebPackPlugin({
+      template: "./src/index.html",
+      filename: "./index.html"
+    })
+  ]
+
+  Create an HTML file into ./src/index.html
+  
+
+
+
 
 
 
