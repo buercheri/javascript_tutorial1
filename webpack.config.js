@@ -25,7 +25,10 @@ module.exports = {
                 test: /\.css$/,
                 use: [
                     MiniCssExtractPlugin.loader,
-                    'css-loader'
+                    {
+                        loader: 'css-loader',
+                        options: { url: false, sourceMap: true }
+                    }
                 ]
             }
         ]
@@ -42,6 +45,8 @@ module.exports = {
             template: './src/index.html',
             filename: './index.html' //relative to root of the application
         }),
-        new MiniCssExtractPlugin()
+        new MiniCssExtractPlugin({
+            filename: "styles.css"
+        })
     ]
 };
