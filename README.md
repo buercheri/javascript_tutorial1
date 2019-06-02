@@ -56,11 +56,8 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
     })
   ]
 
-  Create an HTML file into ./src/index.html
-  
+Create an HTML file into ./src/index.html
 
-
-
-
-
+https://wanago.io/2018/07/23/webpack-4-course-part-three-working-with-plugins/
+npm i mini-css-extract-plugin css-loader --save-dev
 
